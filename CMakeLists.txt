@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 project(TestProject)
-set(VERSION 1.0.7)
+set(VERSION 1.0.8)
 set(BASE_PATH ${PROJECT_SOURCE_DIR})
 configure_file(${BASE_PATH}/VERSION.in ${BASE_PATH}/VERSION)
 configure_file(${BASE_PATH}/Version.h.in ${BASE_PATH}/src/Version.h)
